@@ -11,7 +11,7 @@ st.title("Research Assistant Agent")
 @st.cache_resource
 def build_agent():
     tavily = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
-    llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash", max_retries=1, timeout=30)
+    llm = ChatGoogleGenerativeAI(model="gemini-3.1-flash-lite", max_retries=1, timeout=30)
 
     @tool
     def web_search(query: str) -> str:
