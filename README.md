@@ -1,5 +1,8 @@
 # Research Assistant Agent
 
+**lIVE DEMO:**
+https://research-assistant-agent-jsrxudsdzpunycs6cjceqk.streamlit.app/
+
 An AI agent that searches the web, writes a short research report, saves it as a file, and remembers follow-up questions.
 
 ## Features
